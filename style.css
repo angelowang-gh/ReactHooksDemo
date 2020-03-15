@@ -1,3 +1,21 @@
 h1, p {
   font-family: Lato;
 }
+.exampleComp {
+  padding: 1rem;
+  border: 3px solid saddlebrown;
+  margin-bottom: 1rem;
+}
+.exampleComp big { color: red; }
+.exampleComp::before {
+  content: ">> 普通状态组件:exampleComp";
+  color: grey;
+  font-size: x-small;
+}
+.exampleHooks { border: 3px solid cornflowerblue;
+ }
+.exampleHooks::before {
+  content: ">> Hooks组件:exampleComp";
+  color: grey;
+  font-size: x-small;
+}
