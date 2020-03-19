@@ -9,8 +9,8 @@ function ExampleuseEffect(){
   })
 
   return (
-      <div style={{border:'2px solid #dedede', padding:'10px', marginTop:'10px'}}>
-      <h5>这是函数式组件-ExampleuseEffect</h5>
+      <div className="exampleHooks" style={{padding:'10px', marginTop:'10px'}}>
+      <h5>ExampleuseEffect-这是函数式组件,使用useEffect替代生命周期</h5>
         <p>You clicked <big>{count}</big> times</p>
         <button onClick={()=>{setCount( count + 1 )}}>
           Click me

@@ -6,14 +6,14 @@ h1, p {
   border: 3px solid saddlebrown;
   margin-bottom: 1rem;
 }
-.exampleComp big { color: red; }
+big { color: red; }
 
 .exampleComp::before {
   content: ">> 普通状态组件:exampleComp";
   color: grey;
   font-size: x-small;
 }
-.exampleHooks { border: 3px solid cornflowerblue;
+.exampleHooks { border: 5px solid cornflowerblue;
  }
 .exampleHooks::before {
   content: ">> Hooks组件:exampleComp";
@@ -26,9 +26,16 @@ h1, p {
 }
 
 .example3::before {
-  content: ">> Example3——传统生命周期函数和使用useEffect";
+  content: ">> Example3——传统生命周期函数和使用useEffect的比较，可打印出不同的结果。";
   color: grey;
   font-size: x-small;
 }
 
 div h5 { padding: 0; margin: 0; }
+
+.routePage {
+  width: 50%;
+  margin: 0 0 0 50%;
+  padding:1rem;
+  background-color: #dedede;
+}

@@ -9,7 +9,7 @@ function ExampleHooks2(){
   const [ work, setWork ] = useState('前端程序员'); 
 
   return (
-      <div className="exampleComp ExampleHooks2">
+      <div className="exampleComp ExampleHooks2 exampleHooks">
         <p>年纪：{age}</p>
         <p>年纪：{setAge}</p>
         <p>性别：{sex}</p>
