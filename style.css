@@ -7,6 +7,7 @@ h1, p {
   margin-bottom: 1rem;
 }
 .exampleComp big { color: red; }
+
 .exampleComp::before {
   content: ">> 普通状态组件:exampleComp";
   color: grey;
@@ -19,3 +20,15 @@ h1, p {
   color: grey;
   font-size: x-small;
 }
+
+.ExampleHooks2::before {
+  content:">> ExampleHooks2-使用useState赋值多状态"
+}
+
+.example3::before {
+  content: ">> Example3——传统生命周期函数和使用useEffect";
+  color: grey;
+  font-size: x-small;
+}
+
+div h5 { padding: 0; margin: 0; }
