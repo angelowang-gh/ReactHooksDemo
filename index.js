@@ -7,6 +7,7 @@ import Example3 from './Example3';
 import Example4 from './Example4';
 import Example5 from './Example5';
 import Example6 from './example6/Example6';
+import Example8 from './Example8';
 import { Collapse } from 'antd';
 import "antd/dist/antd.css";
 import './style.css';
@@ -28,7 +29,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Collapse defaultActiveKey={['7']} onChange={callback}>
+        <Collapse defaultActiveKey={['8']} onChange={callback}>
             <Panel header="01.普通状态组件-Example-点击计数器" key="1">
               <p><Example /></p>
             </Panel>
@@ -49,6 +50,9 @@ class App extends Component {
             </Panel>
             <Panel header="07.Example6-使用useContext实现" key="7">
               <p><Example6 /></p>
+            </Panel>
+            <Panel header="08.Example8-使用useref实现-获取DOM和保存变量" key="8">
+              <p><Example8 /></p>
             </Panel>
         </Collapse>
       </div>
